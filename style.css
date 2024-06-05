@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.start{
+    width: 100%;
+    height:70px;
+    background-color: #11111f;
+    border: none;
+    position: sticky;
+    top: 0;
+    z-index:10 ;
+   
+
+}
+
+#search{
+   padding: 6px;
+   margin-top: 18pt;
+   margin-right: 16px; 
+   border: none;
+   font-size: 15px;
+   width: 400px;
+   outline: none;
+   background-color: #FAFAFA;
+   
+}
+
+.center-1{
+    display: flex; 
+    justify-content:right; 
+    overflow: hidden; 
+} 
+
+.logo{ 
+    width: 140px; 
+    height:70px; 
+    position: absolute; 
+    top:0; 
+    left:12pt; 
+}  
+
+.center-1 a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  justify-content: center;
+  margin-top: 8pt;
+}
+
+.center-1 a:hover{
+    background-color:#f277c6;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  }
+
+.left{
+    width: 65%;
+    position: relative;
+}
+
+#info{
+    font-size:15px;
+}
+
+.save{
+    padding:15px;
+    background-color:#9771d8;
+    color: #FAFAFA;
+    font-size: 13px;
+    width:60px;
+    height:10px;
+    border-radius:15px;
+    text-align: center;
+}
+
+.size-select button{
+    background-color: #11111f;
+    color: #FAFAFA;
+    border:none;
+    padding:10px 10px;
+    font-size:13px; 
+    cursor: pointer;
+    border-radius: 1px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color:#9771d8 ;
+    color: #11111f;
+}
+
+#size-1{
+    font-weight: bold;
+}
+
+#price-1{
+    font-weight: bold;
+}
+
+#amount{
+    font-size:x-large;
+    color:	#D2042D;
+}
+
+#quantity-1{
+    font-weight: bold;
+}
+
+.quantity-2{
+    border:none ;
+    outline: none;
+    background-color:#9771d8 ;
+    color: #FAFAFA;
+    padding:10px;
+    width:100px;
+}
+
+.quantity-2:hover{
+    background-color:#11111f;
+    color:#FAFAFA;
+}
+
+.btn button{
+    width:180px;
+    height: 40px;
+    background-color: #11111f;
+    color: #FAFAFA;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:#9771d8 ;
+    color: #11111f;
+}
+
