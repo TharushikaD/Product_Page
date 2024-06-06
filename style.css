@@ -69,6 +69,9 @@ body{
     position: relative;
 }
 
+
+
+
 #info{
     font-size:15px;
 }
@@ -146,4 +149,6 @@ button:hover{
     background-color:#9771d8 ;
     color: #11111f;
 }
+
+
 
